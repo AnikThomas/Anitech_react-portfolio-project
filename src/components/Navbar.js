@@ -1,5 +1,6 @@
 import React from 'react';
-import logo from './images/logo_red.png';
+import logo from './assets/images/logo_red.png';
+
 
 
 const Navbar = () =>{
@@ -34,15 +35,12 @@ const Navbar = () =>{
                             <a href="contact.html" className="nav-link">Contact</a>
                         </li>
                     </ul>
-                    {/* Account modal */}
-                    <span className="navbar-text ml-auto">
-                        <a role="button" data-toggle="modal" data-target="#loginModal">
-                            <i class="fa fa-user-circle fa-2x"></i>
-                        </a>
-                    </span>
+                    
                 </div>
         </div>
     </nav>
+     /*Setup Account modal */
+     
         
     )
 }
