@@ -48,7 +48,7 @@ class HeaderCarousel extends Component {
 		this.animating = false;
 	}
 
-  next() {
+    next() {
 		if (this.animating) return;
 		const nextIndex = this.state.activeIndex === items.length - 1 ? 0 : this.state.activeIndex + 1;
 		this.setState({ activeIndex: nextIndex });
