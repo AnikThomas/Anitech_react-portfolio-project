@@ -1,4 +1,4 @@
-import React,{Component} from 'react';
+import React from 'react';
 import Navbar from './components/Navbar';
 import HeaderCarousel from './components/HeaderCarousel';
 import 'bootstrap/dist/css/bootstrap.min.css';

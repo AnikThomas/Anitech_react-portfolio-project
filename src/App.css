@@ -3,11 +3,11 @@
 :root{
  --primary-white: #fff;
  --primary-red: #f00;
+ --primary-dark:rgba(0, 0, 0, 0.5);  
 }
 
 body{
-    font-family: "Roboto Condensed" sans-serif;
-   
+    font-family: "Roboto Condensed" sans-serif;  
 }
 /* Navbar */
 .logo{
@@ -32,4 +32,17 @@ body{
     transition: border 0.1s; 
 }
 /* CAROUSEL */
+
+.carousel-item, .carousel-item.active {
+    align-items:center;
+    height: 28.125rem;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;  
+    
+}
+.carouselCaption{
+    background: var(--primary-dark);
+}
 

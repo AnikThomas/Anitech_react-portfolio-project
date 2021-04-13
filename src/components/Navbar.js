@@ -2,12 +2,11 @@ import React from 'react';
 import logo from './assets/images/logo_red.png';
 
 
-
 const Navbar = () =>{
     return(
         <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
             <div className="container">
-                <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="logo"/></a>
+                <a className="navbar-brand" href="index.html"><img className="logo" src={logo} alt="logo"/></a>
                 <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span className="navbar-toggler-icon"></span>
                 </button>
@@ -24,7 +23,7 @@ const Navbar = () =>{
                         </li>
                     
                         <li className="nav-item dropdown">
-                            <a href="#" className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown">Products</a>
+                            <a href="products.html" className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown">Products</a>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a href="./products.html" className="dropdown-item"> Categories</a>
                                 <div className="dropdown-divider"></div>
